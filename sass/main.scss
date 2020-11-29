@@ -1,0 +1,381 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto Slab', serif;
+}
+/* Style for navigation */
+
+nav {
+    display: flex;
+    background-color: #FFEBFD;
+    height: 3rem;
+    padding: 10px;
+    justify-content: flex-start;
+    border-bottom: 1px solid #709C9C;
+    overflow: hidden;
+    
+}
+   
+
+nav li {
+    text-decoration: none;
+    text-align: start;
+    display: inline;
+    padding-right: 30px;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color:  #8F8B8F;
+    font-size: 15px;
+    font-weight: 500;
+    
+    
+}
+
+a:hover {
+    color: grey;
+    background-color: white;
+    font-size: 20px;
+    border: 2px solid #709C9C; 
+}
+
+/* Styling för header */
+
+header {
+    height: 11rem;
+    background-color: #A18A9F;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid #709C9C; 
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+  }
+
+header p {
+    color: white;
+    font-size: 15px;
+    
+}
+.header {
+    flex-direction: column;
+    max-width: 60%;
+    justify-content: center;
+    margin: auto;
+    line-height: 25px;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+   
+
+}
+
+
+header h1 {
+    text-align: center;
+    padding: 20px; 
+    font-size: 30px;
+    color: white;
+
+}
+
+/*styling för main*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: auto;  
+    border-bottom: 3px solid #709C9C;
+    
+    
+}
+
+/*styling för sidebar*/
+
+#sidebar {
+    max-width: 25%;
+    margin: auto;
+    border-right: 3px solid #709C9C;
+    padding: 20px;
+    background-color: #FFEBFD;
+    color:  #8F8B8F;
+    line-height: 30px;
+    flex-wrap: wrap;
+    position: sticky; 
+   
+    
+}
+
+.projekt {
+    padding: 20px;
+    border: 3px solid #709C9C;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: lightgrey;
+
+
+    
+}
+
+.projekt h2 {
+    padding-bottom: 20px; 
+    
+}
+
+.lista {
+    list-style-type: none;
+    margin: auto; 
+    padding: 0px; 
+    color: pink;
+    text-decoration: none;
+}
+
+.lista a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.lista a:hover {
+    color: hotpink
+}
+
+
+
+
+.bakgrund {
+
+    padding: 20px;
+    padding-top: 30px;
+    margin: auto;
+    border: 3px solid #709C9C; 
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+.bakgrund h2 {
+    padding-bottom: 20px; 
+   
+}
+
+/*styling Wallet del*/
+
+.ekonomi {
+    max-width: 60%;
+    margin: auto;
+    padding: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ekonomi h2 {
+    padding-bottom: 15px;
+    
+}
+
+
+
+.input {
+
+    background-color: darkgray;
+    max-width: 60%;
+    margin: auto;
+    height: 30px; 
+    align-items: center;
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.first {
+    justify-content: center;
+    max-width: 60%;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #FFEBFD;
+    color: #8F8B8F;
+    border: 2px solid black;
+    font-size: 13px; 
+    margin-bottom: 5px;
+    
+}
+
+.inkomst {
+    font-size: 13px; 
+}
+
+.vinst {
+    justify-content: center;
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+    padding: 1rem; 
+    display: flex;
+    background-color: darkgray;
+    color: white;
+    border: 2px solid black;
+    font-size: 16px;
+
+}
+.listor {
+    display:flex;
+    flex-direction: row;
+    max-width: 60%;
+    justify-content: center;
+    margin: auto;
+    height: 15rem;
+    border: 2px solid black;
+    padding: 1rem;
+    justify-content: space-between;
+    overflow: scroll;
+    margin-bottom: 10px;
+    
+    
+
+}
+
+.add {
+    padding: 5px;
+    background-color: #FFC9FC;
+    color: white; 
+}
+
+.rensa {
+    padding: 5px;
+    background-color: #FFC9FC; 
+    color: white; 
+}
+
+#description {
+    padding: 5px;
+    border: 1px solid black; 
+}
+
+#value {
+    padding: 5px; 
+    border: 1px solid black;
+}
+
+#selectOption {
+    padding: 5px; 
+}
+
+.kostnadslista {
+    max-width: 50%;
+   
+
+}
+
+.inkomstlista {
+    max-width: 50%;
+    
+   
+
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: auto;
+    padding: 0px; 
+}
+
+/*styling för footer*/
+
+footer {
+    background-color: #A18A9F;
+    height: 5rem;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.kontakt {
+    font-size: 20px;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+/* Media quieres del*/
+@media screen and (max-width: 600px) {
+    main {
+      width: 100%;
+      flex-direction: column;
+    
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #sidebar {
+        max-width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #budget {
+        max-width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .input , .first , .listor , .vinst {
+        max-width: 80%;
+        font-size: 7px;
+        padding: 20px;
+        height: auto;
+        padding-bottom: 10px;
+
+    }
+
+@media screen and (max-width: 600px) {
+    .listor {
+        height: 10rem;
+    }
+}
+}
+
+@media screen and (max-width: 600px) {
+    header , .header {
+        height: auto;
+        max-width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        height: auto;
+        
+        
+    }
+}
+
+@media screen and (max-width: 600px){
+    .vinst {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <title>Cornelia Wessberg</title>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigatation-->
+    <nav>
+        <ul>
+            <li><a href=""> Välkommen </a></li>
+            <li><a href=""> Om mig </a></li>
+            <li><a href=""> Kontakt </a></li>
+        </ul>
+    </nav>
+
+    <!-- Header del-->
+
+    <header>
+
+        <div class="header">
+            <h1>Välkommen till min sida 🤍 </h1>
+
+            <p>Hej! Mitt namn är Cornelia och jag är en 25-årig tjej som är bosatt i Stockholm. Jag pluggar just nu
+                webbutveckling mot
+                E-handel på medieinstitutet här i stockholm. Här kan ni hitta lite bakgrunds info om mig, och mina
+                tidigare projekt. Även
+                en plånbok.
+            </p>
+        </div>
+    </header>
+
+    <!-- Huvuddel på sidan -->
+
+    <main>
+
+        <section id="sidebar">
+
+            <div class="projekt">
+
+                <h2> Mina tidigare projekt</h2>
+
+                <ul class="lista">
+                    <li><a href=""> projekt 1 </a></li>
+                    <li><a href=""> projekt 2 </a></li>
+                    <li><a href=""> projekt 3 </a></li>
+                    <li><a href=""> projekt 4 </a></li>
+                </ul>
+            </div>
+
+            <div class="bakgrund">
+                <h2>Mer om mig</h2>
+                <p>Jag är född och uppvuxen i Stockholm, jag har bott i både Los Angeles och Australien i mina vuxna år.
+                    Jag
+                    älskar att resa och se världen och har alltid gjort. Jag har mest jobbat i butik och inom retail sen
+                    jag gick ut skolan.
+                    Men har alltid varit intresserad utav teknik och hur internet och data fungerar. Jag är en person
+                    med logiskt tänkande
+                    och det var därför jag sökte mig till programmeringsmiljöer. Jag är precis i början av att lära mig
+                    kodning, och har kunskap inom html, css och basic
+                    javascript än så länge. Jag ser fram emot att utvecklas som webbutvecklare.
+
+                </p>
+            </div>
+        </section>
+
+        <section id="budget">
+
+            <div class="ekonomi">
+                <h2>Välkommen till Cornelia's plånbok</h2>
+                <p>I denna del har jag gjort en liten plånbok till er, där ni kan infoga kostnader
+                    och inkomster, och sedan få ut en vinst. Även se en inkomslista och kostnadslista. Enjoy!
+                </p>
+            </div>
+
+            <!-- Planbok skapad med javascript -->
+            <!-- Inkomst, kostnaden, vinst, select-2options, 2 input fält - beskrivning/text & value/number
+inkomstlista, kostnadslista-->
+
+
+            <div class="wallet">
+
+                <section class="input">
+                    <form>
+                        <select id="selectOption">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                        </select>
+
+                        <input type="text" id="description">
+                        <input type="number" id="value">
+                        <button class="add">Add</button>
+                        <button class="rensa">Clear</button>
+
+                    </form>
+
+                </section>
+
+                <section class="first">
+
+                    <div class="inkomst">
+                        <h2>Inkomst:</h2>
+                        <span class="inkomstData">
+                            <!-- innertext --></span>
+
+                    </div>
+
+                    <div class="kostnad">
+                        <h2>kostnad:</h2>
+                        <span class="kostnadData">
+                            <!-- innertext--></span>
+
+                    </div>
+
+                </section>
+
+
+                <section class="listor">
+
+                    <div class="inkomslista">
+                        <h2>inkomstlista:</h2>
+
+                        <ul class="listaIncome"> </ul>
+
+                    </div>
+
+
+                    <div class="kostnadslista">
+                        <h2>kostnadlista:</h2>
+                        <ul class="listaKostnad"> </ul>
+                    </div>
+
+
+
+
+                </section>
+
+                <!-- skapar ett li element för varje inmatning kostnad
+        pusha li in i ul, samma med inkomst-->
+
+                <div class="vinst">
+                    <h2>vinst/förlust:</h2>
+                    <span class="vinstData">
+                        <!-- innertext --></span>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h3>Hoppas vi ses snart igen, här hittar ni mina kontaktuppgifter 💌</h3>
+        </div>
+
+        <div class="kontakt">
+            <i class="fab fa-instagram-square">corneliawessberg</i>
+            <i class="fas fa-envelope"> cornelia.wessnass@gmail.se</i>
+            <i class="fas fa-phone-square">0738267265</i>
+        </div>
+
+    </footer>
+</body>
+
+</html>
